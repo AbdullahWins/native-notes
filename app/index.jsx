@@ -27,7 +27,7 @@ const Index = () => {
   }
 
   return (
-    <SafeAreaView className="flex-1 items-center justify-center text-white">
+    <SafeAreaView className="flex-1 items-center justify-center text-white bg-primary">
       {passcodeExists ? (
         <Passcode></Passcode>
       ) : (
